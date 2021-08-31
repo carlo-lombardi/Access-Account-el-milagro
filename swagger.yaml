@@ -202,9 +202,6 @@ paths:
             schema:
               type: object
               properties:
-                title:
-                  type: string
-                  example: "Mr"
                 firstName:
                   type: string
                   example: "Jason"
@@ -223,7 +220,6 @@ paths:
                 acceptTerms:
                   type: boolean
               required:
-                - title
                 - firstName
                 - lastName
                 - email
@@ -407,9 +403,8 @@ paths:
                     id:
                       type: string
                       example: "5eb12e197e06a76ccdefc121"
-                    title:
-                      type: string
-                      example: "Mr"
+                    isRegistered:
+                      type: boolean
                     firstName:
                       type: string
                       example: "Jason"
