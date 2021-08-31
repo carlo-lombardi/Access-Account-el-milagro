@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cornflourblue/node-mongo-signup-verification-api.git"
+    "url": "https://github.com/carlo-lombardi/access_account_el_milagro.git"
   },
   "scripts": {
     "start": "node ./server.js",
